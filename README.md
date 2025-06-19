@@ -21,9 +21,9 @@ This repository contains a collection of manual API tests created using Postman,
 
 ## What’s Covered in This Collection
 
-| Endpoint                        /t| Method  |/t Purpose                       |
+| Endpoint                        | Method  | Purpose                       |
 
-| `/api/users?page=2`             /t| GET     |/t List users                    |
+| `/api/users?page=2`             | GET     | List users                    |
 
 | `/api/users/2`                  | GET     | Get single user               |
 
