@@ -24,14 +24,23 @@ This repository contains a collection of manual API tests created using Postman,
 | Endpoint                        | Method  | Purpose                       |
 
 | `/api/users?page=2`             | GET     | List users                    |
+
 | `/api/users/2`                  | GET     | Get single user               |
+
 | `/api/users`                    | POST    | Create user                   |
+
 | `/api/users/2`                  | PUT     | Update entire user            |
+
 | `/api/users/2`                  | PATCH   | Update partial user           |
+
 | `/api/users/7`                  | DELETE  | Delete user                   |
+
 | `/api/register`                | POST    | Register user                 |
+
 | `/api/login`                   | POST    | Login user                    |
+
 | `/api/unknown`                 | GET     | Get resource list             |
+
 | `/api/users?delay=2`           | GET     | Get users with delay (simulate slow API) |
 
 ---
